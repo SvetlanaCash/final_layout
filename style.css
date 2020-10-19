@@ -1,0 +1,165 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color:#c7b299;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 181px;
+  text-decoration: none;
+  background-color: #c7b299;
+  color: #fff;
+}
+
+.logo-svg {
+  fill: currentColor;
+}
+
+.logo-txt {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.logo:hover{
+  color: #998675;
+}
+
+.header {
+  height: 470px;
+  width: 100%;
+  background-image: url(../img/bg_photo.svg);
+  background-repeat: no-repeat;
+}
+
+.header__top {
+  display: flex;
+  height: 65px;
+  width: 100%;
+}
+
+.menu-all {
+  display: flex;
+  list-style: none;
+}
+
+.menu {
+  padding: 0 0 0 10px;
+  width: 42px;
+  height: 10px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.carusel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  position: relative;
+}
+
+.carusel-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid green;
+}
+
+.carusel-btn:nth-of-type(1) {
+  margin: 0 50px 0 0;
+}
+
+.carusel-btn:nth-of-type(2) {
+  margin: 0 0 0 50px;
+}
+
+
+.carusel-txt {
+  width: 40%;
+  min-height: 200px;
+  background-color: #ccc;
+}
+
+.carusel-pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0;
+  border: 1px solid red;
+}
+
+.carusel-pagination-item {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+.advantages {
+  background-color: white;
+}
+
+.advantages-list {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+.advantages__title {
+  font-family: Raleway;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #555555;
+}
+
+.advantages__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+
+.realization__title,
+.realization__text {
+  text-align: center;
+}
+
+.realization__text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.realization-photo {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 300px;
+  background-image: url(../img/browser-center.jpg),
+                    url(../img/browser-left.jpg),
+                    url(../img/browser-right.jpg);
+  background-size: 60%, 40%, 40%;
+  background-repeat: no-repeat;
+  background-position: bottom center, bottom left, bottom right;
+}
